@@ -1,0 +1,19 @@
+{
+  "name": "redux_talk_starter",
+  "version": "1.0.0",
+  "description": "Starter code for an intro to Redux talk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/babel-cli/bin/babel-node.js debug redux_demo.js"
+  },
+  "author": "Aaron Krause <aaronjkrause@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "redux": "^3.6.0"
+  }
+}
